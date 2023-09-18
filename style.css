@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body, h1, h2, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body background color */
+body {
+    background-color: #f0f8ff; /* Light Sky Blue */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+#navbar {
+    background-color: #1e90ff; /* Dodger Blue */
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar h1 {
+    font-size: 24px;
+    margin-left: 20px;
+    color: white;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#navbar a:hover {
+    color: #ff4500; /* Orange Red */
+}
+
+button {
+    background-color: #000;
+    color: #008000; /* Green */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0000cd; /* Medium Blue */
+}
+
+/* About section styles */
+#about {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff; /* White */
+}
+
+#about h5 {
+    font-size: 18px;
+    color: #1e90ff; /* Dodger Blue */
+}
+
+#about h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Image in About section */
+#about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 40px;
+    text-align: center;
+    background-color: #1e90ff; /* Dodger Blue */
+    color: white;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Footer styles */
+footer {
+    background-color: #1e90ff; /* Dodger Blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Font Awesome icons */
+.fa {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.fa:hover {
+    color: #ff4500; /* Orange Red */
+}
+
+
